@@ -1,0 +1,32 @@
+    <div class="calculator">
+    <div class="display">
+      <label id = display>{{result}}</label>
+    </div>
+    <div>
+      <button class="btn" (click)="number(1)">1</button>
+      <button class="btn" (click)="number(2)">2</button>
+      <button class="btn" (click)="number(3)">3</button>
+      <button class="btn" (click)="get(1)">1st</button>
+    </div>
+    <div>
+      <button class="btn" (click)="number(4)">4</button>
+      <button class="btn" (click)="number(5)">5</button>
+      <button class="btn" (click)="number(6)">6</button>
+      <button class="btn" (click)="get(2)">2nd</button>
+      <button class="btn" (click)="negative()">+/-</button>      
+    </div>
+    <div>
+      <button class="btn" (click)="number(7)">7</button>
+      <button class="btn" (click)="number(8)">8</button>
+      <button class="btn" (click)="number(9)">9</button>
+      <button class="btn" (click)="number(0)">0</button>
+      <button class="btn" (click)="clear()">Clear</button>
+    </div>
+    <div>
+      <button class="btn" (click)="add()">+</button>
+      <button class="btn" (click)="subtract()">-</button>
+      <button class="btn" (click)="divide()">/</button>
+      <button class="btn" (click)="multiply()">*</button>
+      <button class="btn" (click)="enter()">Enter</button>
+    </div>
+  </div>
